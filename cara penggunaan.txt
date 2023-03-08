@@ -1,0 +1,25 @@
+untuk convert
+
+node MyTools D:\KPN\BelajarNode\FarizAbdillah\files\log.txt -t text
+
+atau
+
+node MyTools D:\KPN\BelajarNode\FarizAbdillah\files\log.txt -t json
+
+
+untuk convert dan memilih lokasi dimana file akan diletakkan
+
+node MyTools D:\KPN\BelajarNode\FarizAbdillah\files\log.txt -t json -o path ex D:\KPN\OutputTest
+atau node MyTools D:\KPN\BelajarNode\FarizAbdillah\files\log.txt -t text -o path ex D:\KPN\OutputTest
+
+
+
+help
+
+node MyTools -h
+
+
+catatan : 
+1. untuk konversi dalam bentuk text tanpa menentukan output location.. file akan tersimpan pada folder txt
+2. untuk konversi dalam bentuk json tanpa menentukan output location.. file akan tersimpan pada folder json
+3. jika flag o maka file output akan diberi nama ConvertResult

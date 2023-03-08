@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "plain-text-data-to-json": "^2.0.0",
+    "process.argv": "^0.6.0",
+    "txt-file-to-json": "^3.0.6"
+  }
+}
